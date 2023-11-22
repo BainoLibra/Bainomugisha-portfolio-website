@@ -310,6 +310,7 @@ nav .fas{
         background: #ff004f;
         position: fixed;
         left: 0;
+        right: 0;
         width: 100px;
         height: 50vh;
         padding-top: 50px;
