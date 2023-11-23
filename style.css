@@ -311,8 +311,8 @@ nav .fas{
         position: fixed;
         left: 0;
         right: 0;
-        width: 100px;
-        height: 50vh;
-        padding-top: 50px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px ;
     }
 }
