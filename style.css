@@ -336,5 +336,13 @@ nav ul .fas{
     margin-top: 100px;
 }
 .about-col-2 p{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.about-col-1, .about-col-2{
+    flex-basis: 100%;
+}
+.about-col-1{
+    margin-bottom: 30px;
 }
