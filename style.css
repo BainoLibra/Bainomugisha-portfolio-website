@@ -287,7 +287,7 @@ form .btn2{
 nav .fas{
     display: none;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:750px){
     header{
         background-image: url(images/STU__2_-removebg-preview.png);
     }
