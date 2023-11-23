@@ -329,9 +329,12 @@ nav ul .fas{
     cursor: pointer;
 }
 .sub-title{
-    font-size: 10px;
+    font-size: 20px;
 }
 .about-col-1 img{
     width: 100%;
     margin-top: 100px;
+}
+.about-col-2 p{
+    font-size: 20px;
 }
