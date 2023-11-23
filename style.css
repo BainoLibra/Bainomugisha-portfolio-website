@@ -309,7 +309,29 @@ nav .fas{
     nav ul{
         background: #ff004f;
         position: fixed;
-        left: 0;
+        left: -200px;
         right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50;
+        z-index: 2;
+        transition: left 0.5s;
     }
+}
+nav ul li{
+    display: block;
+    margin: 25px;
+}
+nav ul .fas{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+.sub-title{
+    font-size: 20px;
+}
+.about-col-1 img{
+    width: 100px;
+    margin-top: 100px;
 }
