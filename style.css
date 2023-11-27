@@ -12,7 +12,7 @@ body{
     background: #080808;
     color: #fff;
 }
-header{
+#header{
     width: 100%;
     height: 100vh;
     background-image: url(images/STU__2_-removebg-preview.png);
@@ -21,7 +21,7 @@ header{
     background-position: center right;
 }
 
-header{
+#header{
     background-attachment: fixed;
 }
 .container{
