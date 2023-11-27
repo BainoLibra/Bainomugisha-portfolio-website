@@ -4,6 +4,10 @@
     font-family: poppins, sans-serif;
     box-sizing: border-box ;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -287,7 +291,7 @@ form .btn2{
 nav .fas{
     display: none;
 }
-@media only screen and (max-width:600px){
+@media(max-width: 768px){
     header{
         background-image: url(images/STU__2_-removebg-preview.png);
     }
@@ -313,12 +317,12 @@ nav .fas{
         right: 0;
         width: 200px;
         height: 100vh;
-        padding-top: 50;
+        padding-top: 50px;
         z-index: 2;
         transition: left 0.5s;
     }
     nav ul li{
-        display: block;
+        display:block;
         margin: 25px;
     }
     nav ul .fas{
@@ -332,6 +336,10 @@ nav .fas{
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
+    }
+    .about-col-1 img{
+        flex-basis: 100%;
+        width: 100%;
     }
     .about-col-1{
         margin-bottom: 30px;
@@ -349,5 +357,8 @@ nav .fas{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
     }
 }
